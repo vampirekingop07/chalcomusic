@@ -31,6 +31,9 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
-        ]
+        ],
+        [InlineKeyboardButton(text="• sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ •", url=f"https://github.com/Chalcogen645/api.git")],
+    
+    ]
     
     return buttons
